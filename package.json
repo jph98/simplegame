@@ -1,0 +1,11 @@
+{
+  "name": "simplegame",
+  "version": "0.0.0",
+  "description": "Simple Game",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy game.js:bundle.js --live"
+  },
+  "author": "Jon",
+  "license": "BSD-2-Clause"
+}
