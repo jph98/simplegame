@@ -27,3 +27,7 @@ package.json contains:
       "author": "Jon",
       "license": "BSD-2-Clause"
     }
+
+Run the game with:
+
+    npm start
