@@ -7,23 +7,23 @@ Install Node, NPM and modules
 
   http://nodejs.org/download/
 
-  curl -s https://npmjs.org/install.sh > npm-install-$$.sh
-  sh npm-install-*.sh
-
-  npm init
-  npm install gameloop crtrdg-keyboard
-  npm install -g beefy browserify
+    curl -s https://npmjs.org/install.sh > npm-install-$$.sh
+    sh npm-install-*.sh
+  
+    npm init
+    npm install gameloop crtrdg-keyboard
+    npm install -g beefy browserify
   
 package.json contains:
 
-  {
-    "name": "simplegame",
-    "version": "0.0.0",
-    "description": "Simple Game",
-    "main": "index.js",
-    "scripts": {
-      "start": "beefy game.js:bundle.js --live"
-    },
-    "author": "Jon",
-    "license": "BSD-2-Clause"
-  }
+    {
+      "name": "simplegame",
+      "version": "0.0.0",
+      "description": "Simple Game",
+      "main": "index.js",
+      "scripts": {
+        "start": "beefy game.js:bundle.js --live"
+      },
+      "author": "Jon",
+      "license": "BSD-2-Clause"
+    }
